@@ -1,0 +1,5 @@
+fit_checks:
+  - scope
+  - contribution_depth
+  - theorem_expectation
+  - empirical_expectation

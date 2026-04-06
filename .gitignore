@@ -1,0 +1,80 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local Codex/session files
+.codex
+/AGENTS.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
+
+# Local secrets and auth
+.env
+.env.*
+secrets/
+auth/
+runtime/
+
+# Paper boost generated workspaces and outputs
+projects/
+workspace/
+outputs/
+logs/
+tmp/
+cache/
+
+# Experiment artifacts
+results/
+checkpoints/
+wandb/
+mlruns/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+
+# Local journal/template drop zones
+elsarticle/
+sn-article-template/
+journal/
+templates/
+journal_templates/
+
+# Local-only repo content
+/tests/

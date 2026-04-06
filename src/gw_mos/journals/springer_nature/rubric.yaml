@@ -1,0 +1,5 @@
+fit_checks:
+  - scope
+  - section_norms
+  - theorem_expectation
+  - citation_density

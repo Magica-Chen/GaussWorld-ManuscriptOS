@@ -1,0 +1,10 @@
+type: object
+properties:
+  family:
+    type: string
+  scope_summary:
+    type: string
+  template_hint:
+    type: string
+required:
+  - family
